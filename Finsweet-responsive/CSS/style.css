@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --black_primary: #0D0D0D;
+    --white: #FFFFFF;
+    --btn-color-primary: #FFD2A4;
+    --card-primary: #FFF5EB; 
+}
+
+body {
+
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+
+    max-width: 1280px;
+}
+
+.btn {
+
+    background-color: var(--btn-color-primary);
+    line-height: 16px;
+    font-weight: 400px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+
+
+}
+
+header nav .head {
+    width: 180px;
+    height: 56px;
+    padding: 20px 48px;
+
+}
+
+#Banner .banner {
+    width: 214px;
+    height: 64px;
+    padding: 24px 64px;
+    margin-bottom: 64px;
+
+
+}
+
+.btn:hover {
+
+    background-color: var(--btn-color-primary);
+
+}
+
+
+header nav {
+
+    background: var(--black_primary);
+}
+
+header nav .navbar-nav {
+
+    gap: 48px;
+}
+
+header nav .nav-link {
+
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400px;
+
+
+}
+
+header nav .nav-link:hover {
+
+    color: var(--white);
+}
+
+.navbar-brand {
+    margin-right: 128px;
+}
+
+#Banner {
+
+    background: url(../images/Banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 128px 0;
+}
+
+#Banner .text-content h5 {
+
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    width: 186px;
+    height: 19px;
+    margin-bottom: 16;
+
+}
+
+#Banner .text-content h1 {
+
+    color: var(--white);
+    font-size: 64px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    width: 592px;
+    height: 164px;
+    line-height: 82px;
+    margin-bottom: 32;
+
+}
+
+#Banner .text-content p {
+
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400px;
+
+    width: 308px;
+    height: 48px;
+    line-height: 24px;
+    position: relative;
+    margin-left: 30px;
+
+}
+
+#Banner .text-content p::before {
+
+    content: "";
+    background: var(--btn-color-primary);
+    width: 18px;
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    left: -30px;
+
+
+
+
+}
+
+#Relavent {
+
+    margin: 128px 0;
+}
+
+#Relavent .title {
+
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+#Relavent .title h4 {
+
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+#Relavent .title h2 {
+
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+#Relavent .item{
+
+        background-color: var(--card-primary);
+        padding: 80px;
+        border-bottom: 16px solid var(--btn-color-primary);
+
+}
+
+#Relavent .row .item img {
+
+    height: 48px;
+    width: 48px;
+    margin-bottom: 24px;
+}
+
+#Relavent .row .item h2{
+   font-size: 32px;
+    font-weight: 700px;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: -1%;
+    margin-bottom:8px;
+
+}
+
+#Relavent .row .item p{
+   font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    width: 251px;
+    height: 96px;
+
+}
