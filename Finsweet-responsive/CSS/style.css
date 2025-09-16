@@ -5,7 +5,7 @@
     --black_primary: #0D0D0D;
     --white: #FFFFFF;
     --btn-color-primary: #FFD2A4;
-    --card-primary: #FFF5EB; 
+    --card-primary: #FFF5EB;
 }
 
 body {
@@ -147,13 +147,13 @@ header nav .nav-link:hover {
     margin: 128px 0;
 }
 
-#Relavent .title {
+.title {
 
     text-align: center;
-    margin-bottom: 64px;
+
 }
 
-#Relavent .title h4 {
+.title h4 {
 
     font-size: 16px;
     font-weight: 400px;
@@ -161,19 +161,25 @@ header nav .nav-link:hover {
     text-transform: uppercase;
 }
 
-#Relavent .title h2 {
+.title h2 {
 
     font-size: 48px;
     font-weight: 700px;
     line-height: 64px;
     text-transform: uppercase;
+
 }
 
-#Relavent .item{
 
-        background-color: var(--card-primary);
-        padding: 80px;
-        border-bottom: 16px solid var(--btn-color-primary);
+#Relavent .rt1 h2 {
+    margin-bottom: 64px;
+}
+
+#Relavent .item {
+
+    background-color: var(--card-primary);
+    padding: 80px;
+    border-bottom: 16px solid var(--btn-color-primary);
 
 }
 
@@ -184,21 +190,70 @@ header nav .nav-link:hover {
     margin-bottom: 24px;
 }
 
-#Relavent .row .item h2{
-   font-size: 32px;
+#Relavent .row .item h2 {
+    font-size: 32px;
     font-weight: 700px;
     line-height: 44px;
     text-transform: uppercase;
     letter-spacing: -1%;
-    margin-bottom:8px;
+    margin-bottom: 8px;
 
 }
 
-#Relavent .row .item p{
-   font-size: 16px;
+#Relavent .row .item p {
+    font-size: 16px;
     font-weight: 400px;
     line-height: 24px;
     width: 251px;
     height: 96px;
+
+}
+
+#Compassion {
+
+    padding: 128px 0;
+}
+
+#Compassion .ct1 p {
+    margin: 0 auto 56px;
+    width: 846px;
+}
+
+#Compassion .title .comp {
+    width: 205px;
+    height: 64px;
+    padding: 24px 64px;
+
+
+
+
+}
+
+#Compassion .ct1 h2 {
+    margin-bottom: 32px;
+}
+
+#Compassion .img-wrapper {
+
+    width: 1024px;
+    margin: 0 auto 64px;
+}
+
+#Compassion .images {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+}
+
+#Compassion .mf {
+
+    margin-top: 48px;
+}
+
+#Compassion .copmb p {
+    margin: 16px auto;
+
+    width: 512px;
+
 
 }
